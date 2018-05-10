@@ -16,7 +16,9 @@ class InputField extends Component {
     event.preventDefault();
     const { attr } = this.state;
 
-    this.props.handleAddNew(attr);
+    if (attr !== '') {
+      this.props.handleAddNew(attr);
+    }
   }
 
   handleOnClickDelete = () => {
@@ -37,6 +39,7 @@ class InputField extends Component {
               type="text"
               className="input-text"
               autoFocus={!this.props.id}
+              disabled={this.props.id}
               value={this.state.attr}
               onChange={this.handleOnchangeField}
             />
