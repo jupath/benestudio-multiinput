@@ -1,0 +1,22 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.container {
+  @media (min-width: $large-break-point) {
+    margin: 0 auto;
+    width: $large-break-point;
+  }
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-centre {
+  text-align: center;
+}
+
+.text-blue {
+  color: $blue!important;
+}

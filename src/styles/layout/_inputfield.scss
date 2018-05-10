@@ -1,0 +1,14 @@
+.input-field__form > form,
+.input-field__form > form > input {
+  width :100%;
+}
+
+.input-field__label {
+  color: $darker-grey;
+  font-size: 12px;
+  margin: 15px 0 5px 0;
+}
+
+.input-field__form {
+  display: flex;
+}

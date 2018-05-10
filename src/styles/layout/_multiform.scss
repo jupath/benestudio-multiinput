@@ -1,0 +1,22 @@
+.multiform {
+  margin: 30px 0;
+}
+
+.multiform__footer {
+  background-color: $light-blue;
+  border-top: 1px solid $grey;
+  padding: 15px 10px;
+  text-align: right;
+}
+
+@media (min-width: $large-break-point) {
+  .multiform {
+    display: flex;
+  }
+  .multiform__logo {
+    width: 30%;
+  }
+  .multiform__content {
+    width: 70%;
+  }
+}
