@@ -1,3 +1,3 @@
 ### Multi Input with ReactJS
 
-For working demo click [HERE](https://bene-studio-todo-app.firebaseapp.com/)
+For working demo click [HERE](https://multi-input-app.firebaseapp.com/)
